@@ -1,0 +1,27 @@
+{
+  "name": "nvidia-nim-proxy",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible proxy server for NVIDIA NIM API with full streaming and reasoning/thinking support",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/test_proxy.js"
+  },
+  "keywords": [
+    "nvidia",
+    "nim",
+    "openai",
+    "proxy",
+    "stream",
+    "sse",
+    "reasoning",
+    "thinking"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
