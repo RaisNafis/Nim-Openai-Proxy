@@ -14,7 +14,7 @@ Proxy server ringan berbasis **Node.js + Express** yang meneruskan request **Ope
 
 ---
 
-## 📁 Struktur Proyek
+## 📁 Struktur Proyeks
 
 ```
 nvidia_nim_proxy/
